@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <h1>
+        THis is my first web page
+    </h1>
+    <p>My name is {{first_name}}</p>
+    <p>{{stuff}}</p>
+    <h2>favourite_pizza</h2>
+    {% for i in favourite_pizza|reverse %}
+    <p>{{i}}</p>
+    {% endfor %}
+    <p> i like : {{favourite_pizza.2}} pizza</p>
+</html>
